@@ -98,4 +98,18 @@ body {
        .gomb:hover{
             background-color: #C5A059; 
             transform: scale(1.05);
-        }            
+        }           
+
+                   footer {
+    background-color: #0b2219; 
+    color: #f3e5ab;           
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #d4af37; 
+    margin-top: 40px;
+}
+
+footer a {
+    color: #d4af37;     
+    font-weight: bold;
+    text-decoration: underline;
