@@ -149,9 +149,12 @@
             let verseny = document.getElementById('verseny').value;
             let tet = document.getElementById('tet').value;
 
-            if (tet == "" || tet < 1){
+            if (tet == "") {
                 alert("Kérlek írj be egy tétet!");
                 return;
+            }
+            if (tet < 1) {
+                alert("ne adj meg 1-nél kisebb számot")
             }
           
                 
