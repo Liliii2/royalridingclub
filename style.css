@@ -39,7 +39,7 @@ body {
             transition: all 0.2s ease;
         }
        nav button:hover {
-           background-color: #C5A059;
+           background-color: #d4af37;
            transform: scale(1.05);
         }
 
