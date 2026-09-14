@@ -83,6 +83,7 @@ body {
             border: none;
             font-weight: bold;
             cursor: pointer;
+            transition: all 0.2s ease;
         }
        .gomb:hover{
             background-color: #C5A059; 
