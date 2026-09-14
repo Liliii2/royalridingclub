@@ -59,7 +59,12 @@ body {
             border: 1px solid #d4af37;
             padding: 15px;
             margin-bottom: 20px;
+                    box-shadow: 0 4px 15px rgba(212, 175, 55, 0.15);
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
+       .kartya:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(212, 175, 55, 0.3);
 
         .kartya img {
             max-width: 100%;       
