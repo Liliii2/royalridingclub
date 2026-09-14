@@ -37,6 +37,10 @@ body {
             cursor: pointer;
             margin-right: 5px;
         }
+       nav button:hover {
+           background-color: #C5A059;
+           transform: scale(1.05);
+        }
 
         .oldal {
             display: none;
