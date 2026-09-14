@@ -115,7 +115,7 @@
             </select>
 
             <label>Tét összege (Ft):</label>
-            <input type="number" id="tet" placeholder="Pl. 2000">
+            <input type="number" id="tet" placeholder="min. 2000 Ft">
 
             <button onclick="fogadasMentese()" class="gomb">Fogadás elküldése</button>
         </div>
@@ -150,11 +150,11 @@
             let tet = document.getElementById('tet').value;
 
             if (tet == "") {
-                alert("Kérlek írj be egy tétet!");
+                alert("kérlek írj be egy tétet!");
                 return;
             }
-            if (tet < 1) {
-                alert("ne adj meg 1-nél kisebb számot")
+            if (tet < 2000) {
+                alert("minimum 2000 Ft-ot adj meg!")
             }
           
                 
