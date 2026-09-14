@@ -84,3 +84,7 @@ body {
             font-weight: bold;
             cursor: pointer;
         }
+       .gomb:hover{
+            background-color: #C5A059; 
+            transform: scale(1.05);
+        }            
