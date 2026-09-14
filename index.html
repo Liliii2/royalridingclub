@@ -149,10 +149,12 @@
             let verseny = document.getElementById('verseny').value;
             let tet = document.getElementById('tet').value;
 
-            if (tet == "") {
+            if (tet == "" || tet < 1){
                 alert("Kérlek írj be egy tétet!");
                 return;
             }
+          
+                
 
             document.getElementById('fogadasom-helye').innerHTML += 
                 "<p><strong>" + lo + "</strong> - " + verseny + " (" + tet + " Ft tét)</p>";
